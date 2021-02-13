@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: wmapi
+Version: 0.1
+Summary: Python Client for Walmart Canada Marketplace API
+Home-page: https://github.com/sellerzoncom/wmapi
+Author: SellerZon
+Author-email: dev@sellerzon.com
+License: UNKNOWN
+Description: Python Client for Walmart Canada Marketplace API 
+        
+        Currently works for only Canada Marketplace. 
+        
+        Before Usage
+        -------
+        You have to get your consumer-id, channel-type and private-key information from:
+        https://seller.walmart.ca/api-key
+        
+        Installation
+        ------------
+        
+            pip install wmapi
+        
+        
+        Usage
+        -----
+        
+        Import the package
+        
+            import wmapi
+        
+        Create an API Class and request as below:
+        
+            items_api = wmapi.Items(client_id = '<your client id>', 
+                                    private_key='<private key>', 
+                                    channel_type='<channel type>')
+        
+            result = items_api.get_all_items()
+        
+        More
+        -------
+        This library is maintained by https://sellerzon.com 
+        Please contact for further inquiries: help@sellerzon.com
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown

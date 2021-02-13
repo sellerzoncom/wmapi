@@ -1,0 +1,10 @@
+README.md
+README.rst
+setup.py
+wmapi/__init__.py
+wmapi/wmapi.py
+wmapi.egg-info/PKG-INFO
+wmapi.egg-info/SOURCES.txt
+wmapi.egg-info/dependency_links.txt
+wmapi.egg-info/requires.txt
+wmapi.egg-info/top_level.txt
